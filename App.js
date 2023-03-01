@@ -12,7 +12,7 @@ import HistoryScreen from './screen/HistoryScreen';
 
 const homeName = 'Home';
 const SettingName = 'Settings';
-const SearchName = 'Search';
+const SearchName = 'Rooms';
 const createName = 'Create';
 const historyName = 'History';
 
@@ -41,7 +41,7 @@ export default function App() {
             if (route.name === homeName) {
               iconName = 'home';
             } else if (route.name === SearchName) {
-              iconName = focused ? 'person' : 'person';
+              iconName = 'my-library-books';
             } else if (route.name === createName) {
               iconName = focused ? 'person' : 'person';
             } else if (route.name === historyName) {
@@ -61,7 +61,7 @@ export default function App() {
             },
           }}>
           <Tab.Screen name="Home" component={HomeScreen} />
-          <Tab.Screen name="Search" component={SearchScreen} />
+          <Tab.Screen name="Rooms" component={SearchScreen} />
           <Tab.Screen name="Create" component={CreateScreen} />
           <Tab.Screen name="History" component={HistoryScreen} />
           <Tab.Screen name="Settings" component={SettingsScreen} />

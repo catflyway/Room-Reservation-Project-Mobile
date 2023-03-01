@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@ant-design/react-native": "^5.0.4",
     "@expo/vector-icons": "^13.0.0",
     "@mdi/js": "^7.1.96",
     "@mdi/react": "^1.6.1",
@@ -25,6 +26,7 @@
     "expo-font": "^11.0.1",
     "react": "18.0.0",
     "react-native": "0.69.8",
+    "react-native-element-dropdown": "^2.7.1",
     "react-native-gesture-handler": "~2.5.0",
     "react-native-linear-gradient": "^2.6.2",
     "react-native-pager-view": "5.4.24",
